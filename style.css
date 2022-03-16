@@ -1,0 +1,51 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navLink {
+    font-size: 20px;
+    color: white;
+}
+
+a:hover {
+    background-color:white;
+    color:#303030;
+    border-radius: 5px;
+}
+
+.imgContainer { 
+    height: 350px;
+}
+
+.firstImgOfMe {
+    border-radius: 10px;
+}
+
+.parClass {
+    margin: 0 15%
+}
+
+.card33 {
+    width: 33%;
+}
+
+.imght {
+    height: 20%;
+}
+
+.imgWH {
+    height: 500px;
+}
+
+.contactLinks a {
+        background-color:white;
+    color:#303030;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
