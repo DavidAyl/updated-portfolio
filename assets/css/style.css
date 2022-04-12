@@ -119,3 +119,7 @@ footer {
 #navName:hover {
 color:#303030
 }
+
+#resume {
+    text-decoration: underline;
+}
