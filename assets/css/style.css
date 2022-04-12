@@ -69,6 +69,17 @@ footer {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centeredTwo {
+ transition: .5s ease;
+  opacity: 0;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -88,7 +99,12 @@ footer {
 }
 
 
-.imgcontainer:hover .centered {
+.imgcontainer:hover .centered{
+  opacity: 1;
+}
+
+
+.imgcontainer:hover .centeredTwo{
   opacity: 1;
 }
 
