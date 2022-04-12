@@ -13,17 +13,18 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid d-flex justify-content-around mx-auto">
-        <a class="navbar-brand">David Aylward</a>
-        <a href="#about" class="nav-item navLink">About</a>
-        <a href="#projects" class="nav-item navLink">Projects</a>
-        <a href="#resume" class="nav-item navLink">Resume</a>
-        <a href="#contact" class="nav-item navLink">Contact</a>
+        <a class="navbar-brand px-2 py-1" id="navName">David Aylward</a>
+        <a href="#about" class="nav-item navLink px-2 py-1">About</a>
+        <a href="#projects" class="nav-item navLink px-2 py-1">Projects</a>
+        <a href="#resume" class="nav-item navLink px-2 py-1">Resume</a>
+        <a href="#contact" class="nav-item navLink px-2 py-1">Contact</a>
       </div>
     </nav>
     <main>
       <h2 class="text-center my-5">David Aylward | Web Development</h2>
       <div class="imgContainer d-flex justify-content-center">
-        <img src="./assets/images/imgofme.jpg" alt="image of me" class="firstImgOfMe">
+        <img src="https://dummyimage.com/600x400/000/fff&text=Headshot+coming+soon" alt="image of me"
+          class="firstImgOfMe">
       </div>
       <h3 id="about" class="text-center my-5">About Me</h3>
       <p class="text-center parClass">
@@ -41,73 +42,60 @@
         of pride in my work so I will always try to make my work the best I can.
       </p>
       <h3 id="projects" class="text-center my-5">Projects</h3>
-      <div class="card1 d-flex">
-        <div class="card card33">
-          <h3 class="card-header text-center">Traxx</h3>
-          <div class="card-body">
-            <h5 class="card-title text-center">Music Search Application</h5>
-          </div>
-          <img src="./assets/images/Traxx-Main.png" alt="Traxx">
-          <div class="card-body">
-            <p class="card-text text-center mt-5"> This application shows proficiency in HTML, CSS, and Javacsript. This
-              web
-              applications allows you to search for your favorite track or music artists and get videos.
-            </p>
-          </div>
-          <div class="card-body d-flex justify-content-center">
-            <a target="_blank" href="https://devonfaria.github.io/traxx/" class="card-link">Check It Out Here!</a>
-          </div>
-          <div class="card-footer text-muted text-center">
-            Made By David Aylward
+      <hr>
+      <div class="d-flex justify-content-center">
+        <div class="imgcontainer">
+          <h2 class="text-center">Chiron</h2>
+          <p class="text-center">Chiron is your one stop shop as a patient looking to acces your medical records and
+            book appointments with
+            your doctors. Hover over the image below to try it out!</p>
+          <div>
+            <img src="./assets/images/Chiron.png" alt="chironhome" class="img">
+            <div class="centered">
+              <a href="https://polar-peak-28753.herokuapp.com/about" target="_blank" class="imgtxt">
+                View the page here!
+              </a>
+            </div>
           </div>
         </div>
-        <div class="card card33">
-          <h3 class="card-header text-center">Password Gen</h3>
-          <div class="card-body">
-            <h5 class="card-title text-center">Secure Random Password Generator</h5>
-          </div>
-          <img class="imght" src="./genpw.png" alt="Traxx">
-          <div class="card-body">
-            <p class="card-text text-center mt-5"> This web application shows proficiency in mainly JavaScript. This
-              application allows the user to generate a random password based off of prompts.
-            </p>
-          </div>
-          <div class="card-body d-flex justify-content-center">
-            <a target="_blank" href="https://davidayl.github.io/password-gen/" class="card-link">Check It Out Here!</a>
-          </div>
-          <div class="card-footer text-muted text-center">
-            Made By David Aylward
+        <div class="imgcontainer">
+          <h2 class="text-center">Traxx</h2>
+          <p class="text-center">Traxx is a do-all music searching software, simply type in a song, artist, or lyrics
+            and traxx will give you the results you are looking for! Hover over the image below to try it out!</p>
+          <div>
+            <img src="./assets/images/Traxx-Main.png" alt="chironhome" class="img">
+            <div class="centered">
+              <a href="https://polar-peak-28753.herokuapp.com/about" target="_blank" class="imgtxt">
+                View the page here!
+              </a>
+            </div>
           </div>
         </div>
-        <div class="card card33">
-          <h3 class="card-header text-center">Daily Planner</h3>
-          <div class="card-body">
-            <h5 class="card-title text-center">Daily Planner To Help Schedule</h5>
-          </div>
-          <img class="imght" src="./finishedpage.png" alt="Traxx">
-          <div class="card-body">
-            <p class="card-text text-center mt-5"> This web application shows proficiency in local storage. This
-              application allows users to create a daily planner and save what they need to do at different time slots.
-            </p>
-          </div>
-          <div class="card-body d-flex justify-content-center">
-            <a target="_blank" href="https://davidayl.github.io/daily-planner/" class="card-link">Check It Out Here!</a>
-          </div>
-          <div class="card-footer text-muted text-center">
-            Made By David Aylward
+        <div class="imgcontainer">
+          <h2 class="text-center">Password Gen</h2>
+          <p class="text-center"> Password Gen is a unique password generator that will give you a secure password based
+            on the parameters you provide, nowadays most peoples information is stored in accounts so safety is
+            key! Hover over the image below to try it out!</p>
+          <div>
+            <img src="./assets/images/genpw.png" alt="chironhome" class="img">
+            <div class="centered">
+              <a href="https://polar-peak-28753.herokuapp.com/about" target="_blank" class="imgtxt">
+                View the page here!
+              </a>
+            </div>
           </div>
         </div>
       </div>
       <h3 id="resume" class="text-center my-5">Resume</h3>
       <div class="d-flex justify-content-center">
-        <img class="imgWH" src="./resume.jpg" alt="my resume">
+        <img class="imgWH" src="./assets/images/resume.jpg" alt="my resume">
       </div>
       <h3 id="contact" class="text-center my-5">Contact Me</h3>
       <div class="d-flex justify-content-around contactLinks">
-        <a target="_blank" href="https://www.linkedin.com/in/david-aylward-0a3819230">LinkedIn</a>
-        <a href="mailto:david123@david.com">Email</a>
-        <a href="tel:777-333-3737">Phone</a>
-        <a target="_blank" href="https://github.com/DavidAyl">Github</a>
+        <a class=" px-2 py-1" target="_blank" href="https://www.linkedin.com/in/david-aylward-0a3819230">LinkedIn</a>
+        <a class=" px-2 py-1" href="mailto:david123@david.com">Email</a>
+        <a class=" px-2 py-1" href="tel:777-333-3737">Phone</a>
+        <a class=" px-2 py-1" target="_blank" href="https://github.com/DavidAyl">Github</a>
       </div>
     </main>
     <footer>
